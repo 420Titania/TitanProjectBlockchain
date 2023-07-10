@@ -8,7 +8,7 @@ contract insurance {
     address payable owner;
     uint256 public totalPremium;
 
-    constructor() public {
+    constructor() {
         owner = payable(msg.sender);
     }
 
